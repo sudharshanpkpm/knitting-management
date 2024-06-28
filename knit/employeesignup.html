@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quality Knits</title>
+    <link rel = "icon" href =  "Logo.jpg" 
+        type = "image/x-icon">   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>Customer Signup</title>
+    <link rel = "icon" href =  "Logo.jpg" 
+        type = "image/x-icon"> 
+        <head>
+</head>
+<body>
+  <div class="container">
+    <h1>Signup</h1>
+    <form action="#" method="POST">
+      <label for="name">Employee name</label>
+			<input type="text" id="name" name="name" placeholder="Enter Employee Name" required>
+			<label for="id">Employee ID</label>
+			<input type="text" id="Email or Phone Number" name="email or phone number" placeholder="Enter Employee ID" required>
+			<label for="password">Password</label>
+			<input type="password" id="psw" name="psw" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+			<label for="password">Confirm Password</label>
+			 <input type="password" id="psw" name="psw" placeholder="Enter  password again" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+      <button type="submit" formaction="emploginsuccess.html">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
